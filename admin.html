@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Admin - EduTeranga</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Espace Administrateur</h1>
+  <p>Gérer les cours et le contenu de la plateforme</p>
+</header>
+
+<nav>
+  <a href="index.html">Accueil</a>
+  <a href="etudiant.html">Espace Étudiant</a>
+  <a href="#ajouter">Ajouter un cours</a>
+  <a href="#liste">Liste des cours</a>
+</nav>
+
+<section id="ajouter">
+  <h2>Ajouter un nouveau cours</h2>
+
+  <form class="login-form">
+    <input type="text" placeholder="Nom du cours" required>
+    <input type="text" placeholder="Niveau (ex: Terminale, L1)" required>
+    <textarea placeholder="Description du cours" required></textarea>
+    <button type="submit">Ajouter le cours</button>
+  </form>
+
+  <p><b>Note :</b> Ceci est une démonstration pour le hackathon.</p>
+</section>
+
+<section id="liste">
+  <h2>Liste des cours</h2>
+
+  <div class="card">
+    <h3>Mathématiques</h3>
+    <p>Niveau : Terminale</p>
+    <button>Modifier</button>
+    <button>Supprimer</button>
+  </div>
+
+  <div class="card">
+    <h3>Probabilités</h3>
+    <p>Niveau : Licence 1</p>
+    <button>Modifier</button>
+    <button>Supprimer</button>
+  </div>
+
+  <div class="card">
+    <h3>Algorithmique</h3>
+    <p>Niveau : Débutant</p>
+    <button>Modifier</button>
+    <button>Supprimer</button>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 - EduTeranga | Panneau Administrateur</p>
+</footer>
+
+</body>
+</html>
